@@ -8,6 +8,8 @@ yes | dpkg -i dbt.deb
 
 usermod -rG sudo user
 
+cp 'Liberar 1h.desktop' /home/user/Escritorio/
+
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -i" >> /etc/sudoers
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -g" >> /etc/sudoers
 

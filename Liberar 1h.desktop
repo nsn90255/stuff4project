@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Liberar 1h
+Exec=sudo /usr/local/bin/dbt -g
+Comment=
+Terminal=false
+PrefersNonDefaultGPU=false
+Icon=blueman-blocked-emblem
+Type=Application
