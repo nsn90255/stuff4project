@@ -4,4 +4,4 @@ apt install -y firefox krita kdenlive audacity vlc gimp libreoffice thunderbird 
 
 wget https://github.com/nsn90255/project/releases/download/1.0/dbt.deb 
 
-dpkg -i dbt.deb
+yes | dpkg -i dbt.deb
