@@ -1,0 +1,8 @@
+#### Static Filesystem Table File
+proc	/proc	proc	defaults	0	0
+# /dev/sda2
+UUID=5e9de0d8-3ebe-4ae8-8671-e2fd63368702	/	ext4	rw,errors=remount-ro	0	1
+# /dev/sda1
+UUID=e0bcb4b5-5cec-4d77-a836-f55cf99aa7ea	swap	swap	sw	0	0
+# /dev/sda3
+UUID=c2aea063-7c53-4c14-8c67-2443c9ac9418	/home	ext4	rw,noexec,errors=remount-ro	0	0
