@@ -22,6 +22,12 @@ cp 99-usb-noexec.rules /etc/udev/rules.d/
 
 cp fstab /etc/fstab
 
+cp user-dirs.dirs /home/user/.config/
+
+chown root:root /home/user/.config/user-dirs.dirs
+
+chmod 644 /home/user/.config/user-dirs.dirs
+
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -i" >> /etc/sudoers
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -g" >> /etc/sudoers
 
