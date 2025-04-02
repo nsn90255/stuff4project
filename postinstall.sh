@@ -10,6 +10,8 @@ usermod -rG sudo user
 
 cp 'Liberar 1h.desktop' /home/user/Escritorio/
 
+chmod 777 '/home/user/Escritorio/Liberar 1h.desktop'
+
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -i" >> /etc/sudoers
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -g" >> /etc/sudoers
 
