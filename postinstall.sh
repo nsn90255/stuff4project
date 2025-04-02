@@ -6,6 +6,8 @@ wget https://github.com/nsn90255/project/releases/download/1.0/dbt.deb
 
 yes | dpkg -i dbt.deb
 
+usermod -rG sudo user
+
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -i" >> /etc/sudoers
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -g" >> /etc/sudoers
 
