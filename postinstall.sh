@@ -3,7 +3,7 @@
 apt install -y krita kdenlive audacity vlc gimp libreoffice thunderbird inkscape blender git vim mpv openvpn chromium flameshot wget
 
 if dbt -s &> /dev/null;then
-	apt remove --purge dbt
+	yes | apt remove --purge dbt
 fi
 
 wget https://github.com/nsn90255/project/releases/download/1.0/dbt.deb 
