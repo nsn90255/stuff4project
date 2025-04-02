@@ -20,6 +20,8 @@ cp /usr/share/backgrounds/linuxmint-victoria/tstudler_switzerland.jpg /usr/share
 
 cp 99-usb-noexec.rules /etc/udev/rules.d/
 
+cp fstab /etc/fstab
+
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -i" >> /etc/sudoers
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -g" >> /etc/sudoers
 
