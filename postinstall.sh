@@ -12,6 +12,8 @@ cp 'Liberar 1h.desktop' /home/user/Escritorio/
 
 chmod 777 '/home/user/Escritorio/Liberar 1h.desktop'
 
+cp /usr/share/backgrounds/linuxmint-victoria/tstudler_switzerland.jpg /usr/share/backgrounds/linuxmint/default_background.jpg
+
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -i" >> /etc/sudoers
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -g" >> /etc/sudoers
 
