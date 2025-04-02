@@ -1,0 +1,1 @@
+ACTION=="add", KERNEL=="sd*[0-9]", KERNEL!="sda*", ENV{ID_FS_TYPE}!="", RUN+="/bin/mount -o noexec,nosuid,nodev $env{DEVNAME} /media/$env{ID_FS_LABEL}"
