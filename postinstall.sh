@@ -12,9 +12,9 @@ yes | dpkg -i dbt.deb
 
 usermod -rG sudo user
 
-cp 'Liberar 1h.desktop' /home/user/Escritorio/
+cp 'Liberar 1h.desktop' /Escritorio/
 
-chmod 777 '/home/user/Escritorio/Liberar 1h.desktop'
+chmod 755 '/Escritorio/Liberar 1h.desktop'
 
 cp /usr/share/backgrounds/linuxmint-victoria/tstudler_switzerland.jpg /usr/share/backgrounds/linuxmint/default_background.jpg
 
