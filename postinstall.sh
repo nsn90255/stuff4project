@@ -28,6 +28,9 @@ chown root:root /home/user/.config/user-dirs.dirs
 
 chmod 644 /home/user/.config/user-dirs.dirs
 
+mkdir /etc/skel/.config
+cp user-dirs.dirs /etc/skel/.config/
+
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -i" >> /etc/sudoers
 echo "%users ALL=(ALL) NOPASSWD: /usr/local/bin/dbt -g" >> /etc/sudoers
 
